@@ -1,6 +1,7 @@
-﻿namespace TrueCodersMockInterviewChallenges.Library
+﻿
+namespace TrueCodersMockInterviewChallenges.Library
 {
-    public static class Challenge
+    public class Challenge
     {
         //Challenge 1
         //Write a method called GenerateSequence that takes an int named n as parameters and returns an int array containing the numbers from 1 to n.
@@ -28,8 +29,8 @@
 
 
         //Challenge 5        
-        //Write a method that takes a bool array as parameters and returns an int that represents the number of times false appears
+        //Write a method named CountFalse that takes a bool array as parameters and returns an int that represents the number of times false appears
         //Example - [true, false, false] would return 2 since there are 2 false elements in the array
-        //If the input array is empty return 0
+        //If the input array is empty return 0       
     }
 }
