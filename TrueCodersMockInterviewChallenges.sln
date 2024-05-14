@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrueCodersMockInterviewChallenges.Library", "TrueCodersMockInterviewChallenges.Library\TrueCodersMockInterviewChallenges.Library.csproj", "{0D3C2082-D602-4215-BCC8-BD778B67512E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrueCodersMockInterviewChallenges.Tests", "TrueCodersMockInterviewChallenges.Tests\TrueCodersMockInterviewChallenges.Tests.csproj", "{C8F00D87-A3B9-4D0B-8447-32314C4E4E03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D3C2082-D602-4215-BCC8-BD778B67512E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D3C2082-D602-4215-BCC8-BD778B67512E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D3C2082-D602-4215-BCC8-BD778B67512E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D3C2082-D602-4215-BCC8-BD778B67512E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8F00D87-A3B9-4D0B-8447-32314C4E4E03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8F00D87-A3B9-4D0B-8447-32314C4E4E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8F00D87-A3B9-4D0B-8447-32314C4E4E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8F00D87-A3B9-4D0B-8447-32314C4E4E03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0566F8A-BA0F-464C-9985-B3B94A8FA0A9}
+	EndGlobalSection
+EndGlobal
