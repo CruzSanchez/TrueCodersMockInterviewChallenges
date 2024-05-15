@@ -30,6 +30,22 @@
         //Vowels are considered to be (aeiou) NOT 'y', ignore case - 'A' and 'a' are both valid inputs
         //If there are not any vowels in the input string return 0
 
+        public int CountVowels(string data)
+        {
+            int vowelCount = 0;
+            char[] vowels = new[] { 'A', 'E', 'I', 'O', 'U', 'a', 'e', 'i', 'o', 'u' };
+
+            foreach (char character in data)
+            {
+                if (vowels.Contains(character))
+                {
+                    vowelCount++;
+                }
+            }
+
+            return vowelCount;
+        }
+
 
         //Challenge 3
         //Create a method named FindLargest that accepts an int array as parameters and returns an int representing the largest number.
