@@ -1,5 +1,4 @@
-﻿
-namespace TrueCodersMockInterviewChallenges.Library
+﻿namespace TrueCodersMockInterviewChallenges.Library
 {
     public class Challenge
     {
@@ -7,6 +6,23 @@ namespace TrueCodersMockInterviewChallenges.Library
         //Write a method called GenerateSequence that takes an int named n as parameters and returns an int array containing the numbers from 1 to n.
         //Example - int n = 5 your return value would be an array that looks like this [1, 2, 3, 4, 5]
         //Always assume n >= 0 if the input is 0, return an empty array
+
+        public int[] GenerateSequence(int n)
+        {
+            if (n == 0)
+            {
+                return Array.Empty<int>();
+            }
+
+            int[] sequence = new int[n];
+
+            for (int i = 0; i < n; i++)
+            {
+                sequence[i] = i + 1;
+            }
+
+            return sequence;
+        }
 
 
         //Challenge 2
