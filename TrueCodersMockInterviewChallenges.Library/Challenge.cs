@@ -143,5 +143,27 @@
 
             return numbers.ToArray();
         }
+
+        //Challenge 7
+        //Write a method named StringReverser that takes a string as parameters and returns the string but reversed.
+        //Example - input = "Hello!" would return "!olleH"
+        //If the input is null or an empty string just return an empty string.
+
+        public string StringReverser(string data)
+        {
+            if (string.IsNullOrEmpty(data))
+            {
+                return string.Empty;
+            }
+
+            string reversed = "";
+
+            for (int i = data.Length - 1; i >= 0; i--)
+            {
+                reversed += data[i];
+            }
+
+            return reversed;
+        }
     }
 }
