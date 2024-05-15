@@ -144,7 +144,7 @@ namespace TrueCodersMockInterviewChallenges.Tests
             int[] actual = null; //This is for getting rid of compile error - ignore
 
             //Act
-            //actual = challenge.CountFalse(data); //This is for getting rid of compile error **uncomment in front of actual**
+            actual = challenge.BetweenTwoInts(a, b); //This is for getting rid of compile error **uncomment in front of actual**
 
             //Assert
             Assert.Equal(expected, actual);

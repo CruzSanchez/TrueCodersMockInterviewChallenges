@@ -90,5 +90,15 @@
         //Write a method named BetweenTwoInts that takes two integers (a, b) as parameters and return an array of all integers between the input parameters, including them.
         //Always assume a < b
         //Example a = -1, b = 3 you would return [-1, 0, 1, 2, 3]
+
+        public int[] BetweenTwoInts(int a, int b)
+        {
+            var numbers = new List<int>();
+            for (int i = a; i <= b; i++)
+            {
+                numbers.Add(i);
+            }
+            return numbers.ToArray();
+        }
     }
 }
