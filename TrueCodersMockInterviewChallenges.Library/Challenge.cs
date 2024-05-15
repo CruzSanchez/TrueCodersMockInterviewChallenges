@@ -85,6 +85,32 @@
         //Example - [true, false, false] would return 2 since there are 2 false elements in the array
         //If the input array is empty return 0
 
+        public int CountFalse(bool[] data)
+        {
+            if (data.Length <= 0)
+            {
+                return 0;
+            }
+
+            int count = 0;
+
+            foreach (var item in data)
+            {
+                if (item == false)
+                {
+                    count++;
+                }
+
+                //or
+                //if (!item)
+                //{
+                //    count++;
+                //}
+            }
+
+            return count;
+        }
+
 
         //Challenge 6
         //Write a method named BetweenTwoInts that takes two integers (a, b) as parameters and return an array of all integers between the input parameters, including them.
@@ -94,10 +120,12 @@
         public int[] BetweenTwoInts(int a, int b)
         {
             var numbers = new List<int>();
+
             for (int i = a; i <= b; i++)
             {
                 numbers.Add(i);
             }
+
             return numbers.ToArray();
         }
     }
