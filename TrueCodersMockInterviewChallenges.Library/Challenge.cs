@@ -79,6 +79,21 @@
         //Example - input [1, 1, 0, 3, 0, 0, 2, 1, 2, 3, 5] you would return 6 since there are 3 ones and 3 zeros
         //If the input array is empty return 0
 
+        public int FindZerosAndOnes(int[] data)
+        {
+            int count = 0;
+
+            foreach (var item in data)
+            {
+                if (item == 0 || item == 1)
+                {
+                    count++;
+                }
+            }
+
+            return count;
+        }
+
 
         //Challenge 5        
         //Write a method named CountFalse that takes a bool array as parameters and returns an int that represents the number of times false appears
