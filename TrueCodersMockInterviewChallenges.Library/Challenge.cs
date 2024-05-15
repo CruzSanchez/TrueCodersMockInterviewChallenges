@@ -31,6 +31,12 @@ namespace TrueCodersMockInterviewChallenges.Library
         //Challenge 5        
         //Write a method named CountFalse that takes a bool array as parameters and returns an int that represents the number of times false appears
         //Example - [true, false, false] would return 2 since there are 2 false elements in the array
-        //If the input array is empty return 0       
+        //If the input array is empty return 0
+
+
+        //Challenge 6
+        //Write a method named BetweenTwoInts that takes two integers (a, b) as parameters and return an array of all integers between the input parameters, including them.
+        //Always assume a < b
+        //Example a = -1, b = 3 you would return [-1, 0, 1, 2, 3]
     }
 }
