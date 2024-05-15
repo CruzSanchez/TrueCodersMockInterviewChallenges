@@ -149,5 +149,29 @@ namespace TrueCodersMockInterviewChallenges.Tests
             //Assert
             Assert.Equal(expected, actual);
         }
+
+        [Theory]
+        [InlineData("", "")] // Edge case: empty string returns empty string
+        [InlineData(null, "")] // Null input returns empty string
+        [InlineData("Hello!", "!olleH")] // Basic reversal
+        [InlineData("12345", "54321")] // Numeric string
+        [InlineData(" ", " ")] // Single space character
+        [InlineData("A", "A")] // Single character
+        [InlineData("racecar", "racecar")] // Palindrome
+        [InlineData("123 321", "123 321")] // Numbers with space
+        [InlineData("Test 123!", "!321 tseT")] // Mixed characters and punctuation
+        [InlineData("Madam, I'm Adam.", ".madA m'I ,madaM")] // Complex string with punctuation
+        public void Should_ReverseString(string data, string expected)
+        {
+            //Arrange
+            var challenge = new Challenge();
+            string actual = null; //This is for getting rid of compile error - ignore
+
+            //Act
+            //actual = challenge.StringReverser(data); //This is for getting rid of compile error **uncomment in front of actual**
+
+            //Assert
+            Assert.Equal(expected, actual);
+        }
     }
 }

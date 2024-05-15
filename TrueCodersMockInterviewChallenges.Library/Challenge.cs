@@ -38,5 +38,11 @@ namespace TrueCodersMockInterviewChallenges.Library
         //Write a method named BetweenTwoInts that takes two integers (a, b) as parameters and return an array of all integers between the input parameters, including them.
         //Always assume a < b
         //Example a = -1, b = 3 you would return [-1, 0, 1, 2, 3]
+
+
+        //Challenge 7
+        //Write a method named StringReverser that takes a string as parameters and returns the string but reversed.
+        //Example - input = "Hello!" would return "!olleH"
+        //If the input is null or an empty string just return an empty string.
     }
 }
