@@ -71,7 +71,7 @@ namespace TrueCodersMockInterviewChallenges.Tests
             int actual = 0; //This is for getting rid of compile error - ignore
 
             //Act
-            //actual = challenge.FindLargest(data); //This is for getting rid of compile error **uncomment in front of actual**
+            actual = challenge.FindLargest(data); //This is for getting rid of compile error **uncomment in front of actual**
 
             //Assert
             Assert.Equal(expected, actual);

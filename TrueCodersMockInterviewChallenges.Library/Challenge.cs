@@ -20,6 +20,26 @@ namespace TrueCodersMockInterviewChallenges.Library
         //Example - [3, 1, 10, 7, 6] you would return 10 since it is the largest number in the array
         //If the input array is empty return 0
 
+        public int FindLargest(int[] data)
+        {
+            if (data.Length <= 0)
+            {
+                return 0;
+            }
+
+            int largest = data[0];
+
+            foreach (var item in data)
+            {
+                if (item > largest)
+                {
+                    largest = item;
+                }
+            }
+
+            return largest;
+        }
+
 
         //Challenge 4
         //Write a method named FindOnesAndZeros that accepts an int array as a parameter and returns an int representing the count of the number of 1s AND 0s present in the array.
